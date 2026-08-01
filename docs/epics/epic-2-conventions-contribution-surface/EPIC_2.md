@@ -3,12 +3,13 @@ type: Epic
 title: "Conventions & contribution surface"
 description: "Turn the frame's conventions into a contributor-facing surface, so several people fill the wiki the same way."
 tags: [epic]
-timestamp: 2026-08-01T02:00:05Z
+resource: https://github.com/kern-ia/kern-wiki/issues/2
+timestamp: 2026-08-01T02:20:00Z
 epic: 2
 slug: conventions-contribution-surface
-status: draft
-gh_issue: null
-milestone: null
+status: open
+gh_issue: 2
+milestone: 2
 source: docs/planning/SCOPE.md#milestone-2-conventions--contribution-surface
 ---
 

@@ -3,12 +3,13 @@ type: Epic
 title: "Progressive package documentation"
 description: "Fill each brick's section against the template — install, configuration, usage, examples, integration — replacing placeholders as knowledge settles."
 tags: [epic]
-timestamp: 2026-08-01T02:00:05Z
+resource: https://github.com/kern-ia/kern-wiki/issues/3
+timestamp: 2026-08-01T02:20:00Z
 epic: 3
 slug: progressive-package-documentation
-status: draft
-gh_issue: null
-milestone: null
+status: open
+gh_issue: 3
+milestone: 3
 source: docs/planning/SCOPE.md#milestone-3-progressive-package-documentation
 ---
 

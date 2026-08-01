@@ -3,12 +3,13 @@ type: Epic
 title: "Project map & freshness"
 description: "Give maintainers one transverse view across repos, and keep the wiki honest about what has gone stale."
 tags: [epic]
-timestamp: 2026-08-01T02:00:05Z
+resource: https://github.com/kern-ia/kern-wiki/issues/4
+timestamp: 2026-08-01T02:20:00Z
 epic: 4
 slug: project-map-freshness
-status: draft
-gh_issue: null
-milestone: null
+status: open
+gh_issue: 4
+milestone: 4
 source: docs/planning/SCOPE.md#milestone-4-project-map--freshness
 ---
 

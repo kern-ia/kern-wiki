@@ -3,12 +3,13 @@ type: Epic
 title: "The frame"
 description: "Build the information architecture, templates and conventions the wiki's documentation lands in, plus every page writable truthfully today."
 tags: [epic]
-timestamp: 2026-08-01T02:00:05Z
+resource: https://github.com/kern-ia/kern-wiki/issues/1
+timestamp: 2026-08-01T02:20:00Z
 epic: 1
 slug: the-frame
-status: draft
-gh_issue: null
-milestone: null
+status: open
+gh_issue: 1
+milestone: 1
 source: docs/planning/SCOPE.md#milestone-1-the-frame
 ---
 

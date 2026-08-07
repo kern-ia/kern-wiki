@@ -4,7 +4,7 @@ title: "Conventions & contribution surface"
 description: "Turn the frame's conventions into a contributor-facing surface, so several people fill the wiki the same way."
 tags: [epic]
 resource: https://github.com/kern-ia/kern-wiki/issues/2
-timestamp: 2026-08-01T02:20:00Z
+timestamp: 2026-08-07T00:00:00Z
 epic: 2
 slug: conventions-contribution-surface
 status: open
@@ -43,8 +43,9 @@ Serves journey **J4** (make a first contribution).
 ## Out of scope
 
 - **No writes to `kern-ia/.github`** — no CONTRIBUTING.md, no code of conduct, no security policy,
-  no issue or PR templates in that repo. It is not yet in a state its owners can vouch for.
-  *Deferred.* This epic serves J4 entirely from wiki pages.
+  no issue or PR templates in that repo. It was not in a state its owners could vouch for.
+  *Deferred — resolved 2026-08-07, see Notes.* This epic still serves J4 from wiki pages; it no
+  longer has to carry that alone.
 - **No repo renames and no Go module-path migration.** This epic writes the naming *rule* and opens
   the follow-up issues; the breaking changes stay owned by each repo. *Deferred.*
 - **No changes to brick code.** *Rejected.*
@@ -81,9 +82,18 @@ is the whole reason this milestone comes second rather than after the writing.
   [Epic 5](/epic-5-french-edition/EPIC_5.md) only if it has settled by then.
 - **Zero budget** — GitHub-native tooling only.
 
-**Accepted risk:** contributors will find no `CONTRIBUTING.md` where GitHub shows one, because
-`.github` is out of scope. J4 is therefore served by a site page that GitHub's own affordances will
-not surface. Accepted, not mitigated.
+**Resolved risk (2026-08-07):** this epic accepted that contributors would find no
+`CONTRIBUTING.md` where GitHub shows one, because `.github` was out of scope — *accepted, not
+mitigated*. That repo has since been reviewed file by file and now carries a contribution guide, a
+code of conduct, a security policy and the org-wide issue and PR templates, with private
+vulnerability reporting, secret scanning and push protection enabled on all six repositories.
+GitHub's own affordances now surface a contribution path, so J4 no longer rests on a site page
+alone.
+
+The division holds in both directions: `.github` carries only what GitHub itself reads and applies
+across the org, and every convention stays here. The naming rule issue #33 calls for was drafted
+during that review and is preserved on the `archive/org-docs` branch of `kern-ia/.github` — a
+starting point for #33, not a substitute for it.
 
 **Assumption:** two contributors today, more expected. This was corrected mid-planning and is what
 re-based the constraints onto consistency — if the contributor count turns out to be one, this
